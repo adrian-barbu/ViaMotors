@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joshuageorge.viamotors" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/viaicon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name=".StartupActivity"
+            android:label="@string/title_activity_startup"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntroVideoActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+        </activity>
+        <activity
+            android:name=".OwnersManualActivity"
+            android:label="@string/title_activity_owners_manual"
+            android:launchMode="singleTask">
+        </activity>
+        <activity
+            android:name=".NearestServiceCenterActivity"
+            android:label="@string/title_activity_nearest_service_center"
+            android:launchMode="singleTask">
+        </activity>
+        <activity
+            android:name=".ServiceCenterListActivty"
+            android:label="@string/title_activity_service_center_list_activty"
+            android:launchMode="singleTask">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_main_activity"
+            android:launchMode="singleTask">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>

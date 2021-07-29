@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Via Motors Owner\'s Manual</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_owners_manual">OwnersManualActivity</string>
+    <string name="truck_pdf">http://the-georges.org/TruckManual.pdf</string>
+    <string name="van_pdf">file:///android_res/raw/vanmanual.pdf</string>
+    <string name="title_activity_nearest_service_center">NearestServiceCenterActivity</string>
+    <string name="title_activity_service_center_list_activty">ServiceCenterListActivty</string>
+    <string name="title_activity_intro_video">IntroVideoActivity</string>
+    <string name="title_main_activity">MainActivity</string>
+    <string name="via_motors_number">844&#8211;484&#8211;2832</string>
+    <string name="via_motors_call_url">tel:8444842832</string>
+    <string name="cancel_string">Cancel</string>
+    <string name="call_string">Call</string>
+    <string name="plugshare_package_name">com.xatori.Plugshare</string>
+    <string name="json_name_rows">rows</string>
+    <string name="json_name_cells">cells</string>
+    <string name="json_name_value">value</string>
+    <string name="local_or_list">Allow Via Motors Owner Manual to access your location while you use the app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="prefs_file">VIA_PREFS_FILE</string>
+    <string name="location_access_key">LOCATION_ACCESS</string>
+    <string name="location_settings_set_key">LOCATION_ACCESS_SET</string>
+    <string name="title_activity_startup">StartupActivity</string>
+
+    <string name="warning_get_lastest_service_center_list">"Please connect to internet using Wifi or 3G to get lastest service center list.\r\nWill you continue to view older list?"</string>
+</resources>
